@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form Page</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -12,12 +13,13 @@
     <div class="form-section">
       <h2>Basic Details</h2>
       <div class="upload-image">
+        <i class="ri-upload-line"></i>
         <h2>Upload Image</h2>
         <p>PNG, JPG files are allowed</p>
       </div>
       <form>
         <div class="form-group">
-          <label for="salutation">Salutation</label>
+          <label for="salutation">Salutation <span class="required">*</span>  </label>
           <select id="salutation">
             <option value="">Select</option>
           </select>
